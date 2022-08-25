@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link 
+      rel="preconnect" 
+      href="https://fonts.gstatic.com" 
+      crossorigin
+    >
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" 
+      rel="stylesheet"
+    >
+    <title>Rent Car</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__data">
+          <a href="#" class="icon icon--menu"></a>
+          <a href="#" class="icon icon--like icon--desktop rounded-circle"></a>
+          <a href="#" class="icon icon--bell icon--desktop rounded-circle"></a>
+          <a href="#" class="icon icon--settings icon--desktop rounded-circle"></a>
+          <img src="./image/image.jpg" alt="user-image.png" class="rounded-circle">
+        </div>
+        <div class="header__logo-input">
+          <a href="#" class="header__logo logo"></a>
+          <div class="header__searching search">
+            <div class="input-group flex-nowrap">
+              <label class="search__label">
+                <input 
+                  type="text" 
+                  class="form-control search__input" 
+                  placeholder="Search something here" 
+                >
+              </label>
+              <div class="search__select"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <aside class="sidebar">
+        <div class="sidebar__content">
+          <div class="sidebar__block">
+            <span class="sidebar__toggle-title">Type</span>
+            <ul class="sidebar__type-list">
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-type" type="checkbox" value="Sport" id="Sport">
+                  <label class="form-check-label" for="Sport">
+                    Sport
+                  </label>
+                </div>
+              </li>
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-type" type="checkbox" value="SUV" id="SUV">
+                  <label class="form-check-label" for="SUV">
+                    SUV
+                  </label>
+                </div>
+              </li>
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-type" type="checkbox" value="MPV" id="MPV">
+                  <label class="form-check-label" for="MPV">
+                    MPV
+                  </label>
+                </div>
+              </li>
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-type" type="checkbox" value="Sedan" id="Sedan">
+                  <label class="form-check-label" for="Sedan">
+                    Sedan
+                  </label>
+                </div>
+              </li>
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-type" type="checkbox" value="Coupe" id="Coupe">
+                  <label class="form-check-label" for="Coupe">
+                    Coupe
+                  </label>
+                </div>
+              </li>
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-type" type="checkbox" value="Hatchback" id="Hatchback">
+                  <label class="form-check-label" for="Hatchback">
+                    Hatchback
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar__block">
+            <span class="sidebar__toggle-title">Opacity</span>
+            <ul class="sidebar__type-list">
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-opacity" type="checkbox" value="2" id="twoPerson">
+                  <label class="form-check-label" for="twoPerson">
+                    2 Person
+                  </label>
+                </div>
+              </li>
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-opacity" type="checkbox" value="4" id="fourPerson">
+                  <label class="form-check-label" for="fourPerson">
+                    4 Person
+                  </label>
+                </div>
+              </li>
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-opacity" type="checkbox" value="6" id="sixPerson">
+                  <label class="form-check-label" for="sixPerson">
+                    6 Person
+                  </label>
+                </div>
+              </li>
+              <li class="sidebar__item">
+                <div class="form-check">
+                  <input class="form-check-input form-opacity" type="checkbox" value="8" id="eightPerson">
+                  <label class="form-check-label" for="eightPerson">
+                    8 or More
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar__block">
+            <span class="sidebar__toggle-title">Price</span>
+            <input type="range" class="form-range" id="customRange1" min="30" max="200" step="10" value="100">
+            <p class="sidebar__value">Max.$100.00</p>
+          </div>
+        </div>
+      </aside>
+      <main class="main">
+        <section class="section info">
+          <div class="info__content">
+            <div class="info__photos-car">
+              <div class="info__main-photo">
+                <h1 class="info__main-title">
+                  Sports car with the best designn and acceleration
+                </h1>
+                <p class="info__additional">
+                  Safety and comfort while driving a futuristic and elegant sports car
+                </p>
+                <img src="./image/CAR.png" alt="photo-car.png" class="info__photo">
+              </div>
+              <div class="info__additional-photos">
+                <div class="info__photo-container">
+                  <img 
+                    src="./image/CAR.png" 
+                    alt="photo-car.png" 
+                    class="info__photo-container--first align-middle"
+                  >
+                </div>
+
+                <div class="info__photo-container">
+                  <img 
+                    src="./image/Look 2.png" 
+                    alt="photo-car.png" 
+                    class="info__photo-container--second"
+                  >
+                </div>
+
+                <div class="info__photo-container">
+                  <img 
+                    src="./image/Look 3.png" 
+                    alt="photo-car.png" 
+                    class="info__photo-container--third"
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="info__about-car about">
+              <div class="about__title-like">
+                <div class="about__title">Nissan GT - R</div>
+                <div class="about__like liked"></div>
+              </div>
+              <div class="about__rank">
+                <div class="about__stars stars stars--4">
+                  <div class="stars__star"></div>
+                  <div class="stars__star"></div>
+                  <div class="stars__star"></div>
+                  <div class="stars__star"></div>
+                  <div class="stars__star"></div>
+                </div>
+                <p class="about__count-reviewer">440+ Reviewer</p>
+              </div>
+              <p class="about__paragraph">
+                NISMO has become the embodiment of Nissan's outstanding performance, 
+                inspired by the most unforgiving proving ground, the "race track".
+              </p>
+              <div class="about__function function">
+                <div class="function__group">
+                  <div class="function__title">Type Car</div>
+                  <div class="function__result">Sport</div>
+                </div>
+
+                <div class="function__group">
+                  <div class="function__title">Capacity</div>
+                  <div class="function__result">2 Person</div>
+                </div>
+
+                <div class="function__group">
+                  <div class="function__title">Steering</div>
+                  <div class="function__result">Manual</div>
+                </div>
+                
+                <div class="function__group">
+                  <div class="function__title">Capacity</div>
+                  <div class="function__result">70 L</div>
+                </div>
+              </div>
+              <div class="about__price-and-rent">
+                <div class="price">
+                  <div class="price__current price__light">
+                    <strong class="price__current--dark">$80.00/</strong> 
+                    days
+                  </div>
+                  <span class="price__old price__light">$100.00</span>
+                </div>
+                <button type="button" class="btn about__button btn-primary">Rent Now</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section reviews">
+          <div class="reviews__content">
+            <div class="reviews__title">
+              <h2 class="reviews__title-name">Reviews</h2>
+              <div class="reviews__count"></div>
+            </div>
+            <div class="reviews__user user" id="user"></div>
+            <div class="reviews__show-button">Show All</div>
+          </div>
+        </section>
+
+        <section class="section recent-car">
+          <div class="car__more">
+            <div class="car__title">Recent Car</div>
+            <div class="car__view-all">View All</div>
+          </div>
+          <div class="car__cards">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper swiper-wrapper-recent">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section recomendation-car">
+          <div class="car__more">
+            <div class="car__title">Recomendation Car</div>
+            <div class="car__view-all">View All</div>
+          </div>
+          <div class="car__cards car__cards-recomendation">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper swiper-wrapper-recomendation">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section__selected">
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__wrapper">
+          <div class="footer__logo">
+            <div class="footer__logo logo"></div>
+            <p class="footer__text">
+              Our vision is to provide convenience and
+              help increase your sales business.
+            </p>
+          </div>
+          <nav class="footer__nav nav">
+            <div class="nav__block">
+              <h3 class="nav__title">About</h3>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="/" class="nav__link">How it works</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="" class="nav__link">Featured</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="" class="nav__link">Partnership</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="" class="nav__link">Bussiness Relation</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav__block">
+              <h3 class="nav__title">Community</h3>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="" class="nav__link">Events</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="/" class="nav__link">Blog</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="/" class="nav__link">Podcast</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="/" class="nav__link">Invite a friend</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav__block">
+              <h3 class="nav__title">Socials</h3>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="/" class="nav__link">Discord</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="https://www.instagram.com/audiofficial/" class="nav__link"target="_blank">Instagram</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="https://twitter.com/audiofficial?lang=en" class="nav__link"target="_blank">Twitter</a>
+                </li>
+
+                <li class="nav__item">
+                  <a href="https://www.facebook.com/audiofficial" class="nav__link"target="_blank">Facebook</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="footer__end">
+          <div class="footer__additional">
+            <div class="footer__additional--first">Privacy & Policy</div>
+            <div>Terms & Condition</div>
+          </div>
+          <div class="footer__corporation">
+            &copy;2022 MORENT. All rights reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
