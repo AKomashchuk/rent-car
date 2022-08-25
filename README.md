@@ -1,3 +1,3 @@
-# rent-car-task
-https://akomashchuk.github.io/rent-car-task/
 # rent-car
+
+https://akomashchuk.github.io/rent-car
