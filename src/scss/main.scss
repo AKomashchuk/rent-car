@@ -53,7 +53,7 @@
     padding: 16px 16px 20px;
     margin-bottom: 24px;
     background-color: $sky-blue-color;
-    background-image: url('../../dist/image/BG.svg');
+    background-image: url('../../dist/image/bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -135,7 +135,7 @@
       height: 100%;
       object-fit: contain;
       background-color: $sky-blue-color;
-      background-image: url('../../dist/image/BG.svg');
+      background-image: url('../../dist/image/bg.svg');
       border-radius: 10px;
       transform: scale(0.9);
     }

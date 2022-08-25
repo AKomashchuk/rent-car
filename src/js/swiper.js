@@ -32,7 +32,7 @@ import { recomendationCar, recentCar } from '../API/cars';
           <div class="card__like like"></div>
         </div>
         <div class="card__type">${car.type}</div>
-        <img src="./image/car-1.png" alt="image-car.png" class="card__img">
+        <img src="./image/car-white.png" alt="image-car.png" class="card__img">
         <div class="card__function">
           <div class="card__box">
             <div class="card__gasoline"></div>
@@ -76,7 +76,7 @@ import { recomendationCar, recentCar } from '../API/cars';
           <div class="card__like like"></div>
         </div>
         <div class="card__type">${car.type}</div>
-        <img src="./image/car-2.png" alt="image-car.png" class="card__img">
+        <img src="./image/car-gray.png" alt="image-car.png" class="card__img">
         <div class="card__function">
           <div class="card__box">
             <div class="card__gasoline"></div>
@@ -173,7 +173,7 @@ import { recomendationCar, recentCar } from '../API/cars';
             <div class="card__like like"></div>
           </div>
           <div class="card__type">${car.type}</div>
-          <img src="./image/car-3.png" alt="image-car.png" class="card__img">
+          <img src="./image/car-blue.png" alt="image-car.png" class="card__img">
           <div class="card__function">
             <div class="card__box">
               <div class="card__gasoline"></div>

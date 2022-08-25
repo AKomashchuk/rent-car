@@ -37,7 +37,7 @@ function setComments() {
     ${usersStartList.map(user => `
       <div class="user__info">
         <div class="user__about">
-          <img src="./image/image.jpg" alt="user-image.jpg" class="rounded-circle user__img">
+          <img src="./image/user-avatar.png" alt="user-image.png" class="rounded-circle user__img">
           <div class="user__private-info">
             <h3 class="user__name">${user.name}</h3>
             <h4 class="user__position">${user.position}</h4>
