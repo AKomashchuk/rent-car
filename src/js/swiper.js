@@ -9,7 +9,7 @@ import { recomendationCar, recentCar } from '../API/cars';
       },
 
       1450: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 32,
         allowTouchMove: false,
         noSwiping: false,
