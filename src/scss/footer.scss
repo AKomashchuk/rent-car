@@ -1,0 +1,144 @@
+.footer {
+  background-color: #E3E3E3;
+
+  @include media-breakpoint-up(lg) {
+    background-color: $white-color;
+  }
+
+  &__content {
+    padding: 24px;
+
+    @include media-breakpoint-up(xl) {
+      display: flex;
+      flex-direction: column;
+      padding: 80px 60px 60px;
+    }
+  }
+
+  &__wrapper {
+    @include media-breakpoint-up(xl) {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 48px;
+      border-bottom: 1px solid rgba(19, 19, 19, 0.16);
+    }
+  }
+
+  &__logo {
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: $light-blue-color;
+    margin-bottom: 48px;
+    width: 216px;
+
+    @include media-breakpoint-up(xl) {
+      font-size: 16px;
+      line-height: 32px;
+      width: 292px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__end {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: $dark-blue-color;
+
+    @include media-breakpoint-up(xl) {
+      display: flex;
+      justify-content: space-between;
+      font-size: 16px;
+      line-height: 32px;
+      color: $black-color;
+    }
+  }
+
+  &__additional {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    
+    @include media-breakpoint-up(xl) {
+      order: 1;
+    }
+
+    &--first{
+      margin-right: 60px;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @include media-breakpoint-up(xl) {
+    flex-wrap: nowrap;
+  }
+
+  &__block {
+    min-width: 120px;
+    @include media-breakpoint-up(xl) {
+      min-width: 152px;
+      margin-left: 60px;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: $dark-blue-color;
+    margin-bottom: 16px;
+
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 24px;
+      color: $black-color;
+    }
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 48px;
+
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
+
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 24px;
+      color: rgba(19, 19, 19, 0.6);
+    }
+
+    &:nth-last-child(1) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $light-blue-color;
+
+
+    &:hover {
+      color: $normal-blue-color;
+    }
+  }
+}

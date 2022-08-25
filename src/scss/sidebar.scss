@@ -1,0 +1,58 @@
+.sidebar {
+  display: none;
+
+  @include media-breakpoint-up(lg) {
+    display: block;
+    width: 25%;
+    border: 1px solid rgba(243, 245, 247, 1);
+  }
+
+  &__content {
+    padding: 32px;
+  }
+
+  &__block {
+    margin-bottom: 56px;
+  }
+
+  &__toggle-title {
+    display: block;
+    color: $light-blue-color;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+  }
+
+  &__type-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    margin-bottom: 32px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $normal-blue-color;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__value {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: $normal-blue-color;
+  }
+}
+
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

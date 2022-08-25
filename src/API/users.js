@@ -1,0 +1,10 @@
+export const users = [
+  {photo: '', name: 'Alex Stanton', position: 'CEO at Bukalapak', date: '21 July 2022', comment: "We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.", stars: 4},
+  {photo: '', name: 'Skylar Dias', position: 'CEO at Amazon', date: '20July 2022', comment: "", stars: 4},
+  {photo: '', name: 'Dan Homer', position: 'CEO at Rozetka', date: '23 July 2022', comment: "We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.", stars: 5},
+  {photo: '', name: 'Alex Stanton', position: 'CEO at Bukalapak', date: '21 July 2022', comment: "", stars: 1},
+  {photo: '', name: 'Skylar Dias', position: 'CEO at Amazon', date: '20July 2022', comment: "We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.", stars: 3},
+  {photo: '', name: 'Dan Homer', position: 'CEO at Rozetka', date: '23 July 2022', comment: "", stars: 1},
+  {photo: '', name: 'Dan Homer', position: 'CEO at Rozetka', date: '23 July 2022', comment: "We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.", stars: 5},
+  {photo: '', name: 'Dan Homer', position: 'CEO at Rozetka', date: '23 July 2022', comment: "We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.", stars: 3},
+]

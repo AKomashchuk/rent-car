@@ -1,0 +1,33 @@
+{
+  "name": "car-rent",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "homepage": "https://akomashchuk.github.io/rent-car",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
+    "postcss-loader": "^7.0.1",
+    "sass": "^1.54.5",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0",
+    "swiper": "^8.3.2"
+  }
+}
